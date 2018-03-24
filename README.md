@@ -1,3 +1,2 @@
-# Quasar App
+# FarmHand App
 
-> WIP
