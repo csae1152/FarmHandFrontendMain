@@ -24,17 +24,7 @@
     <!-- Add to home screen for Windows -->
     <meta name="msapplication-TileImage" content="statics/icons/ms-icon-144x144.png">
     <meta name="msapplication-TileColor" content="<%= htmlWebpackPlugin.options.pwaManifest.background_color %>">
-    <% } %>
-
-    <% 
-    app.route('/*')
-    .get(function(req, res) {
-          res.sendFile(path.join(__dirname + '/dist/index.html'));
-});
-
-module.exports = q-app;
-    
-    %>
+    <% } %> 
 
     <%= htmlWebpackPlugin.options.headScripts %>
 
