@@ -9,7 +9,6 @@
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0",
-    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build",
     "start": "node server.js"
   },
   "dependencies": {
