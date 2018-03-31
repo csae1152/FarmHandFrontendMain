@@ -9,10 +9,11 @@
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0",
-    "postinstall": "npm install express"    
-  },  
+    "postinstall": "npm install express"
+  },
   "dependencies": {
     "axios": "^0.18.0",
+    "express": "^4.16.3",
     "vue-i18n": "^7.3.3"
   },
   "devDependencies": {
