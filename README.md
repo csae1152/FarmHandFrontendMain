@@ -1,4 +1,3 @@
 # FarmHand App
 
-https://quasar-admin.firebaseapp.com/#/
-
+Based on Vue.js and quasar.
